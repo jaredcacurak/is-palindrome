@@ -3,27 +3,29 @@
   "version": "0.1.0",
   "description": "A palindrome is a word, phrase, number, or other sequence of symbols or elements, whose meaning may be interpreted the same way in either forward or reverse direction.",
   "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "gulp": "^3.5.6",
+    "gulp-mocha": "^0.4.1",
+    "chai": "^1.9.0"
+  },
   "scripts": {
     "test": "gulp test"
   },
-  "keywords": [
-    "palindrome"
-  ],
-  "author": {
-    "name": "Jared Cacurak",
-    "email": "jared.cacurak@gmail.com",
-    "url": "http://github.com/jaredcacurak/is-palindrome.git"
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jaredcacurak/is-palindrome.git"
   },
-  "license": [
-  {
-    "type": "MIT",
-    "url": "https://github.com/brentertz/scapegoat/blob/master/LICENSE-MIT"
-  }
-],
-  "devDependencies": {
-    "chai": "^1.9.0",
-    "gulp": "^3.5.5",
-    "mocha": "^1.17.1",
-    "gulp-mocha": "^0.4.1"
-  }
+  "keywords": [
+    "palindrome",
+    "predicate"
+  ],
+  "author": "Jared Cacurak <jared.cacurak@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jaredcacurak/is-palindrome/issues"
+  },
+  "homepage": "https://github.com/jaredcacurak/is-palindrome"
 }
