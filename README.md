@@ -9,7 +9,7 @@ npm install is-palindrome --save
 ```
 
 ## Usage
-```
+```javascript
 var isPalindrome = require('is-palindrome');
 
 isPalindrome('racecar') === true;
