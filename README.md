@@ -36,3 +36,4 @@ Add unit tests for any new or changed functionality. Lint and test your code.
 * 0.1.2 Get Travis CI buid to pass
 * 0.1.3 Adhere to the [Node.js Style Guide](https://github.com/felixge/node-style-guide)
 * 0.1.4 Add Travis CI build status badge
+* 0.2.0 Confirm global property NaN is not a palindrome

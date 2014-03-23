@@ -74,6 +74,10 @@ describe('#isPalindrome', function () {
     isPalindrome(undefined).should.be.false;
   });
 
+  it('NaN is not a palindrome', function () {
+    isPalindrome(NaN).should.be.false;
+  })
+
   it('-1 is not a palindrome', function () {
     isPalindrome(-1).should.be.false;
   });
