@@ -8,17 +8,12 @@ module.exports = function (value /*, ignoreSpecialCharacters */) {
   value = (valueIsString && ignoreSpecialCharacters)
     ? value.toLowerCase().replace(/[^\w]/gi, '')
     : value.toString();
+  var length = value.length;
 
-  function test(candidate) {
-    if (candidate.length < 2) return true;
+  if (length < 2) return true;
 
-    var size = candidate.length - 1;
-    var first = candidate[0];
-    var last = candidate[size];
-    var remaining = candidate.slice(1, size);
-    return (first === last)
-      ? test(remaining)
-      : false;
+  for (var i = Math.floor(length / 2); i >= 0; i -= 1) {
+    if (value[i - 1] !== value[length - i]) return false;
   }
-  return test(value);
+  return true;
 }
