@@ -18,6 +18,10 @@ describe('#isPalindrome', function () {
     isPalindrome('aa').should.be.true;
   });
 
+  it('two differing characters are not a palindrome', function () {
+    isPalindrome('ab').should.be.false;
+  });
+
   it('"racecar" is a palindrome', function () {
     isPalindrome('racecar').should.be.true;
   });
