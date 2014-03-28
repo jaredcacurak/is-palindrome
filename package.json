@@ -1,6 +1,6 @@
 {
   "name": "is-palindrome",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A palindrome is a word, phrase, number, or other sequence of symbols or elements, whose meaning may be interpreted the same way in either forward or reverse direction.",
   "main": "index.js",
   "directories": {
