@@ -38,3 +38,4 @@ Add unit tests for any new or changed functionality. Lint and test your code.
 * 0.1.4 Add Travis CI build status badge
 * 0.2.0 Confirm global property NaN is not a palindrome
 * 0.2.1 Register as a Bower package
+* 0.3.0 Convert to UMD
